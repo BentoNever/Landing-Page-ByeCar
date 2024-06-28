@@ -36,25 +36,72 @@
   margin-left: 600px;
 }
 
-
 #div-menu-informacional {
   background-color: #4dbce9bf;
   width: 550px;
-  height: 440px;
-  margin: 30px 00px 0px -30px;
+  height: 420px;
+  margin: 10px 00px 0px 10px;
   border-radius: 15px;
 }
 
-#seta-esquerda {
-  margin-top: 200px;
-  cursor: pointer;
-  margin-left: 30px;
+#div-menu-informacional-esquerda {
+  width: 550px;
+  height: 440px;
+  margin: 40px 00px 0px -590px;
+  border-radius: 15px;
+  border: #4dbce9;
 }
 
-#seta-direita {
-  margin-top: 200px;
+h1 {
+  color: #265e70;
+  margin-top: -3px;
+  font-weight: 400;
+  line-height: 43.75px;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 33px;
+}
+
+#logo-esquerda{
+
+  margin-left: 50px;
+  width: 450px;
+  height: 340px;
+  border-radius: 50%;
+  border: 5px solid hwb(194 69% 8%);
+  margin-top:-20px;
+}
+
+#logo-esquerda:hover{
+  background-color: #267a9e;
+  color: white !important;
+  transform: translateY(-4px);
+  transition-duration: 0.5s;
+  box-shadow: 0px 15px 20px #383838;
+
+}
+
+
+
+#seta-esquerda {
+  margin-top: 185px;
   cursor: pointer;
-  margin-left: -30px
+ }
+
+#seta-direita {
+  margin-top: 185px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#seta-direita:hover {
+  transform: translateX(8px);
+  transition-duration: 0.5s;
+}
+
+#seta-esquerda:hover {
+  transform: translateX(-8px);
+  transition-duration: 0.5s;
 }
 
 #mota-jog {
@@ -62,6 +109,18 @@
   height: 230px;
   margin-left: 150px;
   cursor: pointer;
+}
+
+#mota-honda {
+  width: 258px;
+  height: 230px;
+  margin-left: 150px;
+  cursor: pointer;
+  display: none;
+}
+
+#logo2 {
+  display: none;
 }
 
 #titulo-menu-central {
@@ -72,8 +131,21 @@
   font-size: 33px;
   font-weight: 700;
   line-height: 40.11px;
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
+}
+
+#titulo-menu-central2 {
+  color: #ffffff;
+  width: 541px;
+  height: 10px;
+  font-family: Verdana;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40.11px;
+  margin-top: 20px;
+  display: none;
+  text-align: center;
 }
 
 #dica {
@@ -82,7 +154,7 @@
   font-size: 31px;
   font-weight: 400;
   line-height: 37.68px;
-  margin-top: -15px;
+  margin-top: -25px;
   text-align: center;
 }
 #botao {
@@ -101,6 +173,33 @@
   text-align: center;
   cursor: pointer;
 }
+
+#botao2 {
+  margin-left: 175px;
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  background-color: #4dbce9;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 32.81px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #267a9e;
+  color: white !important;
+  transform: translateY(-4px);
+  transition-duration: 0.5s;
+  box-shadow: 0px 15px 20px #383838;
+}
+
 #dica-preco {
   gap: 0px;
   opacity: 0px;

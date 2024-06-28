@@ -2,45 +2,67 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="shortcut icon" href="./icones/ico/cadastrousuario.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./icones/ico/cadastrousuario.ico"
+      type="image/x-icon"
+    />
     <title>Landing Page ByeCar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"/>
-    
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    
     <!--Secção Menu superior-->
-    
+
     <div id="div-titulo-superior">
-      <a target="_blank" href="https://learning.dnc.group/course/dev-front-end/player/8152/content/55254">
+      <a
+        target="_blank"
+        href="https://learning.dnc.group/course/dev-front-end/player/8152/content/55254"
+      >
         <img id="logo-dnc" src="./imagens/logo-dnc.svg" alt="error" />
       </a>
       <h1 id="titulo-superior">ByeCar</h1>
     </div>
-    
+
     <!--Secção Central-->
-   
+
     <div id="div-seccao-cetral">
-      <img id="seta-esquerda" src="./icones/seta-esquerda.svg" alt="error" />
-      <div id="div-menu-informacional">
-        <form
-          action="https://learning.dnc.group/course/dev-front-end/player/8152/content/55254"
-          method="post"
-        >
-          <p id="titulo-menu-central">Scooter Elétrica Voltz EV1</p>
-          <img id="mota-jog" src="./imagens/mota-jog.svg" alt="error" />
-          <p id="dica">A partir de</p>
-          <button id="botao">R$ 619,90</button>
-          <p id="dica-preco">Plano de 30 meses</p>
-        </form>
+      <div id="div-menu-informacional-esquerda">
+        <div id="div-titulo-menu-central-esquerda">
+          <h1>Ter uma moto por assinatura <br>nunca foi tão fácil!</h1>
+          <img id="logo-esquerda" src="./imagens/central.png" alt="error">
+        </div>
       </div>
-      <img id="seta-direita" src="./icones/seta-direita.svg" alt="error" />
+      <img
+        onclick="Esquerda()"
+        id="seta-esquerda"
+        src="./icones/seta-esquerda.svg"
+        alt="error"
+      />
+      <div id="div-menu-informacional">
+        <p id="titulo-menu-central">Scooter Elétrica Voltz EV1</p>
+        <p id="titulo-menu-central2">Honda CB 500X</p>
+        <img onclick="Direita()" id="mota-jog" src="./imagens/mota-jog.svg" alt="error" />
+        <img onclick="Esquerda()" id="mota-honda" src="./imagens/mota-honda.svg" alt="error" />
+        <img id="logo2" src="./imagens/logo-dnc.svg" alt="error" />
+        <p id="dica">A partir de</p>
+        <button id="botao">R$ 619,90</button>
+        <p id="dica-preco">Plano de 30 meses</p>
+        <button id="botao2">Saiba mais</button>
+      </div>
+      <img
+        onclick="Direita()"
+        id="seta-direita"
+        src="./icones/seta-direita.svg"
+        alt="error"
+      />
     </div>
     <script src="./js/index.js"></script>
   </body>
