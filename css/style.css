@@ -1,0 +1,114 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+
+#div-titulo-superior {
+  background-color: #303030;
+  height: 140px;
+  border-radius: 8px;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#logo-dnc {
+  width: 157px;
+  height: 115px;
+  margin-left: 20px;
+}
+
+#titulo-superior {
+  color: #ffffff;
+  text-align: left;
+  margin-right: 1600px;
+  margin-top: 32px;
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56.35px;
+}
+
+#div-seccao-cetral {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  margin-left: 600px;
+}
+
+
+#div-menu-informacional {
+  background-color: #4dbce9bf;
+  width: 550px;
+  height: 440px;
+  margin: 30px 00px 0px -30px;
+  border-radius: 15px;
+}
+
+#seta-esquerda {
+  margin-top: 200px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+#seta-direita {
+  margin-top: 200px;
+  cursor: pointer;
+  margin-left: -30px
+}
+
+#mota-jog {
+  width: 258px;
+  height: 230px;
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+#titulo-menu-central {
+  color: #ffffff;
+  width: 541px;
+  height: 10px;
+  font-family: Verdana;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40.11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#dica {
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 37.68px;
+  margin-top: -15px;
+  text-align: center;
+}
+#botao {
+  margin-left: 175px;
+  width: 200px;
+  height: 50px;
+  margin-top: -200px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  color: #265e70;
+  font-family: Verdana;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 32.81px;
+  text-align: center;
+  cursor: pointer;
+}
+#dica-preco {
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.31px;
+  text-align: center;
+  margin-top: 10px;
+}
